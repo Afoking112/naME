@@ -24,7 +24,6 @@ const Userarr = []
 
 
 app.get("/",(req,res)=>{
-// res.sendFile( __dirname + "/index.html")
 res.render("index")
 })
 // app.get("/homepage",async(req,res)=>{
